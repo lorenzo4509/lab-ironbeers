@@ -1,0 +1,20 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Beer - My Beer App</title>
+  <link rel="stylesheet" href="/stylesheets/styles.css">
+</head>
+<body>
+  <div class="beer">
+    <img src="{{randomBeer.image_url}}" alt="{{randomBeer.name}}">
+    <h2>{{randomBeer.name}}</h2>
+    <p>{{randomBeer.tagline}}</p>
+    <p>{{randomBeer.description}}</p>
+    <p>First Brewed: {{randomBeer.first_brewed}}</p>
+    <p>ABV: {{randomBeer.abv}}</p>
+    <p>IBU: {{randomBeer.ibu}}</p>
+  </div>
+</body>
+</html>
